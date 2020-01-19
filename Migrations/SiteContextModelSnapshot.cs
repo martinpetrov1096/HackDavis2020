@@ -24,6 +24,8 @@ namespace HackDavis2020.Migrations
 
                     b.Property<string>("Name");
 
+                    b.Property<int>("OwnerID");
+
                     b.HasKey("ID");
 
                     b.ToTable("BluePrint");
@@ -47,6 +49,8 @@ namespace HackDavis2020.Migrations
                         .ValueGeneratedOnAdd();
 
                     b.Property<int>("BluePrintIDs");
+
+                    b.Property<string>("Languages");
 
                     b.Property<string>("Username");
 

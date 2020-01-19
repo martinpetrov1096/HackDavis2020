@@ -5,17 +5,26 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using HackDavis2020.Models;
-
+using HackDavis2020.Data;
 
 namespace HackDavis2020.Controllers
 {
     public class SupporterController : Controller
     {
-        public IActionResult Home()
+        private readonly SiteContext _context;
+
+        public SupporterController(SiteContext context)
         {
-            return View();
+            _context = context;
         }
 
 
+        public IActionResult Home()
+        {
+
+            var bluePrints = _context.BluePrints.Where(m => m.ID > 0);
+
+            return View(bluePrints);
+        }
     }
 }

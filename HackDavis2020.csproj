@@ -25,6 +25,7 @@
     <Folder Include="Data\" />
     <Folder Include="Views\Builder\" />
     <Folder Include="Views\Supporter\" />
+    <Folder Include="Migrations\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="Views\User\Delete.cshtml" />

@@ -17,7 +17,7 @@
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/martin/.nuget/NuGet/NuGet.Config"
+          "/Users/martin/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -73,6 +73,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Utils": {
               "target": "Package",
               "version": "[2.2.4, )"
+            },
+            "glyphicon": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             }
           },
           "imports": [

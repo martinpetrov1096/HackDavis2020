@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HackDavis2020.Migrations
 {
     [DbContext(typeof(SiteContext))]
-    [Migration("20200119111528_CreateDatabase")]
+    [Migration("20200119145521_CreateDatabase")]
     partial class CreateDatabase
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -25,6 +25,8 @@ namespace HackDavis2020.Migrations
                     b.Property<string>("Description");
 
                     b.Property<string>("Name");
+
+                    b.Property<int>("OwnerID");
 
                     b.HasKey("ID");
 
@@ -49,6 +51,8 @@ namespace HackDavis2020.Migrations
                         .ValueGeneratedOnAdd();
 
                     b.Property<int>("BluePrintIDs");
+
+                    b.Property<string>("Languages");
 
                     b.Property<string>("Username");
 

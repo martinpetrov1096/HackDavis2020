@@ -1,4 +1,4 @@
-@model HackDavis2020.Models.UserBluePrint
+@model HackDavis2020.Models.UserBluePrints
 
 @{
     ViewData["Title"] = "Details";
@@ -8,7 +8,10 @@
 
 <div>
     <h4>User</h4>
-       <h1 class="display-4 jumbotron">@Model.BluePrint.Description</h1>
+        @foreach (var bluePrint in Model.BluePrints) {
+            <div>@bluePrint.Name</div>
+            <div>@bluePrint.Description</div>
+        }
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">

@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Builder Home Page";
+    @model IEnumerable<BluePrint>
+    
+}
+
+<div class="text-center">
+
+    <h1 class="display-3">Suggested BluePrints</h1>
+    @foreach (var bluePrint in Model) {
+
+        <div class="shadow d-flex jumbotron flex-column align-items-start">
+
+            <div class="d-flex w-100 flex-row justify-content-between">
+                <h3 class="display-5">@bluePrint.Name</h3>
+                <h4>@bluePrint.Languages</h4>
+            </div> 
+
+            
+            <p>@bluePrint.Description</p>
+
+
+        
+
+
+        </div>
+    }
+</div>

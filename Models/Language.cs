@@ -5,5 +5,6 @@ namespace HackDavis2020.Models
     {
         public int ID { get; set; }
         public string Lang { get; set; }
+
     }
 }

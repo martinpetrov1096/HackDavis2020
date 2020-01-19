@@ -33,7 +33,7 @@ namespace HackDavis2020.Controllers
                 return NotFound();
             }
 
-            UserBluePrint userBluePrint = new UserBluePrint();
+            UserBluePrints userBluePrint = new UserBluePrints();
 
             var bluePrint = await _context.BluePrints
                 .FirstOrDefaultAsync(m => m.ID == id);
@@ -46,7 +46,7 @@ namespace HackDavis2020.Controllers
             }
 
             userBluePrint.User = user;
-            userBluePrint.BluePrint = bluePrint;
+            userBluePrint.BluePrints = (System.Linq.IQueryable<HackDavis2020.Models.BluePrint>)bluePrint;
 
             return View(userBluePrint);
         }
