@@ -95,6 +95,33 @@ namespace HackDavis2020.Data
                     Progress = 40,
                     Description="Aliquam at commodo augue. Pellentesque imperdiet tempor lectus non vulputate. Sed quis molestie turpis, eget egestas leo. Proin tincidunt velit ipsum, id placerat lacus blandit nec. Vivamus ut enim quis nisl feugiat bibendum. Quisque in condimentum nisi, quis blandit libero. Proin interdum sit amet ligula sed ultrices."
                 },
+                new BluePrint{ID=9,
+                    OwnerID = 2,
+                    Name="AI Kernel Operating System",
+                    Languages = "C",
+                    Github = "github.com/fakeurl",
+                    Discord= "discord.gg/fakeurl",
+                    Progress = 10,
+                    Description="Nam porttitor aliquam augue. Aenean nunc urna, condimentum et risus sit amet, scelerisque egestas lorem. Morbi sed laoreet purus. Proin at dui a leo molestie tempus in a ligula. Duis tincidunt aliquam orci, non pellentesque lorem feugiat ut. Donec mollis imperdiet neque, ac elementum urna ultrices nec. Sed neque erat, pretium a nunc in, auctor ultrices felis. Proin et nisl tempor elit convallis iaculis."
+                },
+                new BluePrint{ID=10,
+                    OwnerID = 1,
+                    Name="Internet of Things Mug",
+                    Languages = "HTML",
+                    Github = "github.com/fakeurl",
+                    Discord= "discord.gg/fakeurl",
+                    Progress = 30,
+                    Description="Donec luctus gravida nibh rutrum vehicula. Donec egestas ut turpis sit amet tempor. Phasellus id urna eros. Pellentesque viverra libero at turpis rhoncus maximus. Proin lobortis, orci ut dapibus porttitor, ante elit imperdiet nulla, vel mattis ex libero at metus. Integer in pulvinar nulla, nec sagittis ex. Maecenas cursus enim justo, a sagittis ex semper sit amet."
+                },
+                new BluePrint{ID=11,
+                    OwnerID = 3,
+                    Name="Virtual Reality Poverty Elimination",
+                    Languages = "Python",
+                    Github = "github.com/fakeurl",
+                    Discord= "discord.gg/fakeurl",
+                    Progress = 40,
+                    Description="Aliquam at commodo augue. Pellentesque imperdiet tempor lectus non vulputate. Sed quis molestie turpis, eget egestas leo. Proin tincidunt velit ipsum, id placerat lacus blandit nec. Vivamus ut enim quis nisl feugiat bibendum. Quisque in condimentum nisi, quis blandit libero. Proin interdum sit amet ligula sed ultrices."
+                },
 
             };
             foreach (BluePrint s in blueprints)

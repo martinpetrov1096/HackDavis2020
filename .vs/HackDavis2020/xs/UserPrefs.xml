@@ -1,15 +1,20 @@
 ﻿<Properties StartupConfiguration="{8CA3E4CA-FDFF-4647-A85E-02E1A94F3CCE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/BluePrints/Edit.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Supporter/Home.cshtml">
     <Files>
       <File FileName="Controllers/BuilderController.cs" Line="1" Column="1" IsPinned="True" />
       <File FileName="Data/DBInitializer.cs" Line="71" Column="36" />
       <File FileName="wwwroot/css/hover.css" Line="1" Column="1" />
       <File FileName="Controllers/BluePrintsController.cs" Line="26" Column="10" />
-      <File FileName="Views/BluePrints/Edit.cshtml" Line="40" Column="1" />
+      <File FileName="Views/BluePrints/Edit.cshtml" Line="16" Column="37" />
+      <File FileName="Views/Builder/Home.cshtml" Line="14" Column="1" />
+      <File FileName="Views/BluePrints/Create.cshtml" Line="13" Column="35" />
+      <File FileName="Views/Supporter/Home.cshtml" Line="12" Column="22" />
       <File FileName="Models/Language.cs" Line="8" Column="1" NotebookId="1" />
       <File FileName="Models/User.cs" Line="29" Column="2" NotebookId="1" />
       <File FileName="Models/BluePrint.cs" Line="18" Column="1" NotebookId="1" />
-      <File FileName="Views/BluePrints/Details.cshtml" Line="43" Column="1" NotebookId="1" />
+      <File FileName="Views/BluePrints/Details.cshtml" Line="10" Column="1" NotebookId="1" />
+      <File FileName="Views/Builder/Create.cshtml" Line="15" Column="13" NotebookId="1" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="17" Column="38" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,14 +26,14 @@
               <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="BluePrints" expanded="True">
-                  <Node name="Edit.cshtml" selected="True" />
-                </Node>
-                <Node name="Builder" expanded="True" />
+                <Node name="BluePrints" expanded="True" />
                 <Node name="Home" expanded="True" />
-                <Node name="Supporter" expanded="True" />
-                <Node name="User" expanded="True" />
+                <Node name="Shared" expanded="True" />
+                <Node name="Supporter" expanded="True">
+                  <Node name="Home.cshtml" selected="True" />
+                </Node>
               </Node>
+              <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
         </State>

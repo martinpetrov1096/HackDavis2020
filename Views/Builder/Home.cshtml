@@ -11,8 +11,11 @@
 </div>
 
 
-
-    <h1 class="display-3">My BluePrints</h1>
+    <div class="d-flex flex-row">
+        <h1 class="display-2">My BluePrints</h1>
+        <img src="~/parrotcreator.png" width="100px" "height=100px" />
+    </div>
+    
         @foreach (var bluePrint in Model.BluePrints) {
             <div class="d-flex flex-row">
                 <div class="w-75 d-flex jumbotron shadow flex-column flex-grow-1">
@@ -25,7 +28,7 @@
                             <div class="progress w-50" style= "background-color: white;">
 
                                
-                              <div class="progress-bar" style= "width:@bluePrint.Progress%" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">@bluePrint.Progress%</div>
+                              <div class="progress-bar bg-success" style= "width:@bluePrint.Progress%" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">@bluePrint.Progress%</div>
                             </div>
                         </div>
                     
