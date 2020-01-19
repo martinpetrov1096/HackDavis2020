@@ -10,14 +10,15 @@ namespace HackDavis2020.Controllers
 {
     public class BuilderController : Controller
     {
+        
         public IActionResult Home()
         {
             return View(LoggedInUser.LoggedInUsr);
         }
 
-        public IActionResult Settings()
+       public IActionResult Settings()
         {
-            return View(LoggedInUser.BuilderSettings);
+            return View(LoggedInUser.Builder.Settings);
         }
 
 

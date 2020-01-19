@@ -26,4 +26,7 @@
     <Folder Include="Views\Builder\" />
     <Folder Include="Views\Supporter\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Supporter\Home.cshtml" />
+  </ItemGroup>
 </Project>

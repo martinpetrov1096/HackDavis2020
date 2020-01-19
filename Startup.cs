@@ -33,10 +33,10 @@ namespace HackDavis2020
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-
+            
             services.AddDbContext<SiteContext>(options =>
                 options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
-
+                
             //services.AddDbContext<AppContext>(options =>
              //   options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
             

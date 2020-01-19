@@ -10,6 +10,7 @@ namespace HackDavis2020.Controllers
 {
     public class SupporterController : Controller
     {
+        
         public IActionResult Home()
         {
             return View(LoggedInUser.LoggedInUsr);
@@ -17,7 +18,7 @@ namespace HackDavis2020.Controllers
 
         public IActionResult Settings()
         {
-            return View(LoggedInUser.SupportorSettings);
+            return View(LoggedInUser.Supporter.Settings);
         }
 
 
