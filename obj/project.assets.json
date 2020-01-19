@@ -13292,28 +13292,33 @@
     ]
   },
   "packageFolders": {
-    "/Users/martin/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\jacki\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/martin/Documents/GitHub/HackDavis2020/HackDavis2020.csproj",
+      "projectUniqueName": "C:\\Users\\jacki\\OneDrive\\Documents\\GitHub\\HackDavis2020\\HackDavis2020.csproj",
       "projectName": "HackDavis2020",
-      "projectPath": "/Users/martin/Documents/GitHub/HackDavis2020/HackDavis2020.csproj",
-      "packagesPath": "/Users/martin/.nuget/packages/",
-      "outputPath": "/Users/martin/Documents/GitHub/HackDavis2020/obj/",
+      "projectPath": "C:\\Users\\jacki\\OneDrive\\Documents\\GitHub\\HackDavis2020\\HackDavis2020.csproj",
+      "packagesPath": "C:\\Users\\jacki\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jacki\\OneDrive\\Documents\\GitHub\\HackDavis2020\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/martin/.config/NuGet/NuGet.Config"
+        "C:\\Users\\jacki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -13376,7 +13381,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
