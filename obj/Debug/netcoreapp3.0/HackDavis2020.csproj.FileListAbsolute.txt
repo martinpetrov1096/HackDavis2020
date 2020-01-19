@@ -1,0 +1,8 @@
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp3.0/HackDavis2020.csprojAssemblyReference.cache
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp3.0/HackDavis2020.MvcApplicationPartsAssemblyInfo.cache
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp3.0/HackDavis2020.AssemblyInfoInputs.cache
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp3.0/HackDavis2020.AssemblyInfo.cs
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp3.0/HackDavis2020.TagHelpers.input.cache
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp3.0/HackDavis2020.TagHelpers.output.cache
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp3.0/HackDavis2020.dll
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp3.0/HackDavis2020.pdb
