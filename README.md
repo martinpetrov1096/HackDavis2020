@@ -28,7 +28,9 @@ Our 2020 HackDavis Project
 ### Hour 8-10
 
 
-
+## Martin's Goals:
+- [ ] Figure out how to make queries
+- [ ] Figure out how to create login
 
 
 
