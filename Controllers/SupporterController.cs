@@ -6,21 +6,15 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using HackDavis2020.Models;
 
+
 namespace HackDavis2020.Controllers
 {
     public class SupporterController : Controller
     {
-        
         public IActionResult Home()
         {
-            return View(LoggedInUser.Supporter);
+            return View();
         }
-
-        public IActionResult Settings()
-        {
-            return View(LoggedInUser.Supporter.Settings);
-        }
-
 
 
     }

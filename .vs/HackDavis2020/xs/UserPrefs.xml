@@ -1,18 +1,16 @@
 ﻿<Properties StartupConfiguration="{8CA3E4CA-FDFF-4647-A85E-02E1A94F3CCE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Models/User.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Builder/Home.cshtml">
     <Files>
-      <File FileName="Models/BluePrint.cs" Line="1" Column="1" />
-      <File FileName="Controllers/BuilderController.cs" Line="18" Column="1" />
-      <File FileName="Data/DBInitializer.cs" Line="97" Column="37" />
-      <File FileName="Models/User.cs" Line="47" Column="41" />
-      <File FileName="Views/Supporter/Settings.cshtml" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Views/Supporter/Supporter.cshtml" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Data/DBInitializer.cs" Line="94" Column="17" />
+      <File FileName="Views/User/Details.cshtml" Line="22" Column="14" />
+      <File FileName="Views/User/Settings.cshtml" Line="10" Column="1" />
+      <File FileName="Controllers/BuilderController.cs" Line="28" Column="10" />
+      <File FileName="Views/Builder/Home.cshtml" Line="12" Column="58" />
       <File FileName="Controllers/LanguageController.cs" Line="1" Column="1" NotebookId="1" />
       <File FileName="Data/SiteContext.cs" Line="22" Column="65" NotebookId="1" />
-      <File FileName="Controllers/UserController.cs" Line="31" Column="68" NotebookId="1" />
-      <File FileName="Models/UserBluePrint.cs" Line="11" Column="2" NotebookId="1" />
-      <File FileName="Views/User/Profile.cshtml" Line="12" Column="34" NotebookId="1" />
-      <File FileName="Views/User/Index.cshtml" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Controllers/UserController.cs" Line="36" Column="13" NotebookId="1" />
+      <File FileName="Views/User/Supporter.cshtml" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Controllers/HomeController.cs" Line="16" Column="10" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,16 +18,12 @@
           <Node name="HackDavis2020" expanded="True">
             <Node name="HackDavis2020" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="User.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Builder" expanded="True" />
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Builder" expanded="True">
+                  <Node name="Home.cshtml" selected="True" />
+                </Node>
                 <Node name="Supporter" expanded="True" />
-                <Node name="User" expanded="True" />
               </Node>
             </Node>
           </Node>

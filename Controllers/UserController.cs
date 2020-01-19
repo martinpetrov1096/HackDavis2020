@@ -19,25 +19,6 @@ namespace HackDavis2020.Controllers
             _context = context;
         }
 
-
-        public async Task<IActionResult> Profile()
-        {
-
-            UserBluePrint userBluePrint = new UserBluePrint();
-
-            var bluePrint = await _context.BluePrints
-                .FirstOrDefaultAsync(m => m.ID == LoggedInUser.User.BluePrintIDs);
-
-
-            var user = await _context.Users
-                .FirstOrDefaultAsync(m => m.UserID == LoggedInUser.User.UserID);
-
-            userBluePrint.User = user;
-            userBluePrint.BluePrint = bluePrint;
-
-            return View(userBluePrint);
-        }
-
         // GET: User
         public async Task<IActionResult> Index()
         {
@@ -45,12 +26,17 @@ namespace HackDavis2020.Controllers
         }
 
         // GET: User/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Profile(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
+
+            UserBluePrint userBluePrint = new UserBluePrint();
+
+            var bluePrint = await _context.BluePrints
+                .FirstOrDefaultAsync(m => m.ID == id);
 
             var user = await _context.Users
                 .FirstOrDefaultAsync(m => m.UserID == id);
@@ -59,8 +45,26 @@ namespace HackDavis2020.Controllers
                 return NotFound();
             }
 
+            userBluePrint.User = user;
+            userBluePrint.BluePrint = bluePrint;
+
+            return View(userBluePrint);
+        }
+
+
+        public async Task<IActionResult> Settings(int? id)
+        {
+            var user = await _context.Users
+                .FirstOrDefaultAsync(m => m.UserID == id);
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+
             return View(user);
         }
+
 
         // GET: User/Create
         public IActionResult Create()

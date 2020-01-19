@@ -50,14 +50,14 @@ namespace HackDavis2020.Models
         public static BuilderSettings BuilderSettings { get; } = new BuilderSettings { PrefferedLangs = "C, Javascript, HTML", FreeHours = 5 };
         public static SupportorSettings SupportorSettings { get; } = new SupportorSettings { GetEmailUpdates = true };
 
-        public static Builder Builder { get; set; } = new Builder { Settings = BuilderSettings };
-        public static Supporter Supporter { get; set; } = new Supporter { Settings = SupportorSettings };
+        //public static Builder Builder { get; set; } = new Builder { Settings = BuilderSettings };
+        //public static Supporter Supporter { get; set; } = new Supporter { Settings = SupportorSettings };
 
         public static User User { get; set; } = new User
         {
-            UserID = 3,
+            UserID = 4,
             Username = "nikita",
-            BluePrintIDs = 4
+            BluePrintIDs = 1
         };
 
     }
