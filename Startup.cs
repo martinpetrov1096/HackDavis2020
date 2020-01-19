@@ -10,6 +10,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
+using Microsoft.EntityFrameworkCore;
+using HackDavis2020.Data;
+
 namespace HackDavis2020
 {
     public class Startup
@@ -30,6 +33,13 @@ namespace HackDavis2020
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
+
+            services.AddDbContext<SiteContext>(options =>
+                options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+
+            //services.AddDbContext<AppContext>(options =>
+             //   options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+            
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);

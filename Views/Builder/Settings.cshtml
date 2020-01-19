@@ -1,0 +1,90 @@
+﻿<!--
+    User Settings, when Save Settings is clicked will take you back to /User/Home
+    TODO: Actually save the settings
+-->
+
+
+@{
+    ViewData["Title"] = "UserSettings";
+    @model BuilderSettings;
+    
+}
+
+
+<div class="d-1 d-flex flex-column w-100">
+    <h1 class="display-4 align-self-start p-4">Settings</h1>
+
+
+
+
+
+    <form method="POST" class= id="saveSettings" action="Home" >
+
+        <div class="d-flex flex-row align-items-center">
+            <h4 class="p-4">Free Hours</h4>
+            <input type="text"  class ="form-control w-25" placeholder="Enter Weekly Free Time In Hours" name="url"/>
+        </div>
+
+        <div class="d-flex flex-row align-items-center">
+            <h4 class="p-4">Email</h4>
+            <input type="text"  class ="form-control w-25" placeholder="Enter " name="url"/>
+        </div>
+
+        <div class="d-flex flex-row align-items-center">
+            <h4 class="p-4">Discord Tag</h4>
+            <input type="text"  class ="form-control w-25" placeholder="Enter" name="url"/>
+        </div>
+
+        <div class="d-flex flex-row align-items-center">
+            <h4 class="p-4">PrefferedLangs</h4>
+            <input type="text"  class ="form-control w-25" placeholder="Enter" name="url"/>
+        </div>
+
+        <div class="d-flex flex-row align-items-center">
+            <h4 class="p-4">Free Hours</h4>
+            <input type="text"  class ="form-control w-25" placeholder="Enter " name="url"/>
+        </div>
+
+        <input type="submit" class ="btn btn-primary flex-shrink-1" value="Save Settings"/>
+    </form>
+
+
+</div>
+<!--
+@section scripts {
+    <script type="text/javascript">
+            /*Ajax function for submitting the url you wish to search*/
+            $(function () {
+                $('#SaveSettings').submit(function (e) {
+                    e.preventDefault();
+                    var form = $(this);
+                    var url = form.attr('action');
+                    $('.spinner-border').show();
+
+                    $.ajax({
+                        type: 'POST',
+                        url: url,
+
+
+
+
+
+                        data: form.serialize(),
+                        dataType: 'html',
+                        success: function (data) {
+                            $('.spinner-border').hide();
+                            $('#partial').html(data)
+                                .show()
+                                .addClass("bounceInUp")
+                                .one('webkitAnimationEnd',
+                                    function () {
+                                        $(this).removeClass("bounceInUp");
+                                    }
+                                );
+                           
+                        }
+                    });
+                });
+            });
+    </script>
+} -->

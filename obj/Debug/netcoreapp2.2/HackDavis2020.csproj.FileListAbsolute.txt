@@ -30,3 +30,12 @@
 /Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/HackDavis2020.dll
 /Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/HackDavis2020.pdb
 /Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/HackDavis2020.csproj.CopyComplete
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/Razor/Views/BluePrints/Create.cshtml.g.cs
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/Razor/Views/BluePrints/Delete.cshtml.g.cs
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/Razor/Views/BluePrints/Details.cshtml.g.cs
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/Razor/Views/BluePrints/Edit.cshtml.g.cs
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/Razor/Views/BluePrints/Index.cshtml.g.cs
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/Razor/Views/Builder/Home.cshtml.g.cs
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/Razor/Views/Builder/Settings.cshtml.g.cs
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/Razor/Views/Supporter/Home.cshtml.g.cs
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/Razor/Views/Supporter/Settings.cshtml.g.cs

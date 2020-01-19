@@ -12,6 +12,18 @@
       <Publish Condition="'%(PackageReference.Version)' == ''">true</Publish>
     </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.4">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils" Version="2.2.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Views\Builder\" />
+    <Folder Include="Views\Supporter\" />
+  </ItemGroup>
 </Project>
