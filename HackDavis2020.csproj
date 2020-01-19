@@ -28,5 +28,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Remove="Views\Supporter\Home.cshtml" />
+    <Content Remove="Views\User\Delete.cshtml" />
   </ItemGroup>
 </Project>

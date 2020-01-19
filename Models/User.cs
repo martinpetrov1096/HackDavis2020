@@ -1,27 +1,25 @@
 ﻿using System;
+using System.Collections.Generic;
 namespace HackDavis2020.Models
 {
     public class User
     {
         public int UserID { get; set; }
-        public int ProjectID { get; set; }
         public string Username { get; set; }
-        public Builder Builder { get; set; }
-        public Supporter Supporter { get; set; }
+        //public Builder Builder { get; set; }
+        //public Supporter Supporter { get; set; }
         
-
+        public int BluePrintIDs { get; set; }
     }
+
+
+
+
 
     public class Builder
     {
-        public BluePrint[] BluePrints {get; set;}
         public BuilderSettings Settings { get; set; }
-
-        /*
-        public BluePrint[] GetBluePrints() {
-
-
-        }*/
+        public ICollection<BluePrint> BluePrints { get; set; }
     }
 
     public class Supporter
@@ -32,7 +30,7 @@ namespace HackDavis2020.Models
 
 
     public class BuilderSettings {
-        public string[] PrefferedLangs { get; set; }
+        public string PrefferedLangs { get; set; }
         public int FreeHours { get; set; }
         public string Email { get; set; }
         public string DiscordTag { get; set; }
@@ -49,13 +47,18 @@ namespace HackDavis2020.Models
     //Static class of our permanent user
     public static class LoggedInUser {
 
-        public static BuilderSettings BuilderSettings { get; } = new BuilderSettings { PrefferedLangs = new String[] { "C", "Javascript", "HTML" }, FreeHours = 5 };
+        public static BuilderSettings BuilderSettings { get; } = new BuilderSettings { PrefferedLangs = "C, Javascript, HTML", FreeHours = 5 };
         public static SupportorSettings SupportorSettings { get; } = new SupportorSettings { GetEmailUpdates = true };
 
         public static Builder Builder { get; set; } = new Builder { Settings = BuilderSettings };
         public static Supporter Supporter { get; set; } = new Supporter { Settings = SupportorSettings };
 
-        public static User LoggedInUsr { get; set; } = new User { UserID = 69, Username= "Roy", ProjectID = 1, Builder = Builder, Supporter = Supporter }; 
+        public static User User { get; set; } = new User
+        {
+            UserID = 3,
+            Username = "nikita",
+            BluePrintIDs = 4
+        };
 
     }
 

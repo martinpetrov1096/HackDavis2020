@@ -13,7 +13,7 @@ namespace HackDavis2020.Controllers
         
         public IActionResult Home()
         {
-            return View(LoggedInUser.LoggedInUsr);
+            return View(LoggedInUser.Builder);
         }
 
        public IActionResult Settings()

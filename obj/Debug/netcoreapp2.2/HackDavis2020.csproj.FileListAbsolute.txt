@@ -39,3 +39,13 @@
 /Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/HackDavis2020.pdb
 /Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/HackDavis2020.csproj.CopyComplete
 /Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/HackDavis2020.csprojAssemblyReference.cache
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/Razor/Views/Language/Create.cshtml.g.cs
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/Razor/Views/Language/Delete.cshtml.g.cs
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/Razor/Views/Language/Details.cshtml.g.cs
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/Razor/Views/Language/Edit.cshtml.g.cs
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/Razor/Views/Language/Index.cshtml.g.cs
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/Razor/Views/User/Create.cshtml.g.cs
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/Razor/Views/User/Details.cshtml.g.cs
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/Razor/Views/User/Edit.cshtml.g.cs
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/Razor/Views/User/Index.cshtml.g.cs
+/Users/martin/Documents/GitHub/HackDavis2020/obj/Debug/netcoreapp2.2/Razor/Views/User/Profile.cshtml.g.cs
