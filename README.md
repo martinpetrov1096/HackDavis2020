@@ -26,7 +26,7 @@ Our 2020 HackDavis Project
 - [ ] Everyone: Figure out next goals
 
 ### Hour 8-10
-
+.
 
 ## Martin's Goals:
 - [ ] Figure out how to make queries
